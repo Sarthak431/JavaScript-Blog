@@ -1,0 +1,66 @@
+      :root {
+          --main-color: #007BFF;
+          /* Default color is blue */
+      }
+
+      /* CSS to style the page */
+      body {
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+          max-width: 900px;
+          margin: 0 auto;
+          padding: 20px;
+          text-align: justify;
+      }
+
+      h1 {
+          color: #333;
+      }
+
+      p,
+      li {
+          color: #666;
+      }
+
+      ul {
+          list-style-type: none;
+          /* Use square bullets */
+          margin-left: 0;
+          /* Set the left margin to zero */
+          padding-left: 15px;
+          /* Add some padding on the left for indentation */
+      }
+
+      li span {
+          font-weight: bold;
+      }
+
+      code {
+          background-color: #f2f2f2;
+          padding: 2px 4px;
+          border-radius: 4px;
+          font-family: "Courier New", monospace;
+      }
+
+      /* Additional styles for the highlighted text */
+      li span:before {
+          content: '► ';
+          /* Unicode arrow character */
+          color: var(--main-color);
+          /* Blue color for the arrow */
+      }
+
+      h1 {
+          color: var(--main-color);
+          font-size: 44.8px;
+          text-align: center;
+          text-transform: uppercase;
+          margin-bottom: 30px;
+      }
+
+      /* Styles for the section headers */
+      h2 {
+          color: var(--main-color);
+          border-bottom: 1px solid var(--main-color);
+          padding-bottom: 5px;
+      }
